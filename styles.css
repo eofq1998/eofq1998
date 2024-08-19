@@ -7,10 +7,23 @@ body {
 }
 
 header, footer {
-    background-color: #333;
+    background-color: #10054e;
     color: white;
     text-align: center;
     padding: 1em 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #10054e;
+    color: white;
+    padding: 1em;
+}
+
+header .logo {
+    height: 100px;
+    margin-right: 20px;
 }
 
 main {
@@ -40,7 +53,7 @@ input, textarea {
 }
 
 button {
-    background-color: #007BFF;
+    background-color: #10054e;
     color: white;
     border: none;
     border-radius: 5px;
