@@ -36,6 +36,12 @@ section {
     margin-bottom: 20px;
 }
 
+section img.imagen-derecha {
+    float: right;
+    margin-left: 20px;
+    width: 300px; /* Ajusta el tamaño según sea necesario */
+}
+
 form {
     display: flex;
     flex-direction: column;
